@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey One Piece</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h1>One Piece Survey</h1>
+      <p>Please fill the form, thank you</p>
+      <form>
+        <label for="name">
+          Name
+          <input type="text" name="name" id="name" placeholder="Enter your name..." autofocus required>
+        </label>
+        <label for="email">
+          Email
+          <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+        </label>
+        <label for="number">
+          Age
+          <input type="number" name="age" id="number" placeholder="How old your age ?" min="15" max="40" required>
+        </label>
+        <fieldset>
+          <legend>How is your favorite member ?</legend>
+          <label for="a">
+          <input type="radio" name="member" id="a" value="1" checked> Monkey D. Luffy</label> <br>
+          <label for="b">
+          <input type="radio" name="member" id="b" value="2"> Roronoa Zoro <br>
+          <label for="c">
+          <input type="radio" name="member" id="c" value="3"> Sanji <br>
+          <label for="d">
+          <input type="radio" name="member" id="d" value="4"> Usopp <br>
+          <label for="e">
+          <input type="radio" name="member" id="e" value="5"> Nico Robin <br>
+          <label for="f">
+          <input type="radio" name="member" id="f" value="6"> Nami <br>
+          <label for="g">
+          <input type="radio" name="member" id="g" value="7"> Franky <br>
+          <label for="h">
+          <input type="radio" name="member" id="h" value="8"> Brook <br>
+          <label for="i">
+          <input type="radio" name="member" id="i" value="9"> Toony Toony Chooper <br>
+          <label for="j">
+          <input type="radio" name="member" id="j" value="10"> Jinbe <br>
+        </fieldset>
+        <label for="episode">
+          Your favorite episode ?
+          <input type="number" name="episode" id="episode" placeholder="Enter your episode favorite..." required>
+        </label>
+        <label for="yonkou">
+          Select your favorite yonkou ?
+          <select id="yonkou" required >
+            <option value="akagami-shanks" selected>Akagami Shanks</option>
+            <option value="kaidou">Kaidou</option>
+            <option value="charlote-linlin">Charlote Linlin</option>
+            <option value="marshall-d-teach">Marshall D. Teach</option>
+            <option value="edward-newgate">Edward Newgate</option>
+          </select>
+        </label>
+        <fieldset>
+          <legend>Who admiral do you like ?</legend>
+          <label for="akainu">
+          <input type="checkbox" id="akainu" value="akainu"> Akainu</label> <br>
+          <label for="aokiji">
+          <input type="checkbox" id="aokiji" value="aokiji"> Aokiji </label> <br>
+          <label for="kizaru">
+          <input type="checkbox" id="kizaru" value="kizaru"> Kizaru </label> <br>
+        </fieldset>
+        <label for="coments">
+          Any coments or suggestions ?
+          <textarea name="coments" id="coments" cols="30" rows="10" placeholder="Enter your comment here. . ."></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
